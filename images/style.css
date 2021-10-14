@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.colorStyle {
+    background-color: lavender;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+header  {
+    margin: 10px;
+    grid-column: 2/6;
+    background-color: skyblue;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+header h1 {
+    font-family: 'Courier New', Courier, monospace;
+    grid-column: 2/4;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+img{
+    grid-column: 1/2;
+    height: 200px;
+}
